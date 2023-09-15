@@ -6,4 +6,5 @@ This Python script uses OpenCV and ArUco library to detect ArUco markers in real
 3. The code defines a list of marker IDs and corresponding labels. These IDs and labels are used to identify and label specific ArUco markers in the video stream.
 4. The code enters a loop where it continuously reads frames from the camera and detects ArUco markers in each frame. If a marker with a matching ID is found, it       draws the marker on the frame and displays the corresponding label near the marker.
 5. The code keeps track of the current marker index and the elapsed time since the last marker detection. After a certain display time, it moves on to the next         marker in the list. The loop continues until all markers have been detected or the user presses the 'h' key to exit.
+6. Working is same for the aruco_marker _4*4_DICT
 # Output
